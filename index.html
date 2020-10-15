@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>BREATH</title>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/prettyPhoto.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+
+
+</head>
+<body>
+<header>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!--<a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>-->
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active smooth-scroll"><a href="#home">Breath Bot</a></li>
+					<li class="smooth-scroll"><a href="#gallery">Галерея</a></li>
+					<li class="smooth-scroll"><a href="#mapair">Мапа</a></li>
+					<li class="smooth-scroll"><a href="#team">Команда</a></li>
+					<li class="smooth-scroll"><a href="https://telegram.org/" target="_blank">Telegram</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>
+<!--Home Section-->
+<section id="home">
+	<div class="overlay"></div>
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!--Indicator-->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 wow bounceInUp">
+							<div class="home-text text-center">
+								<h1>BREATH BOT</h1><br><h2><span>ОНЛАЙН СЕРВІС МОНІТОРИНГУ ЗАБРУДНЕННЯ ПОВІТРЯ</span></h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 wow bounceInUp">
+							<div class="home-text text-center">
+								<h2>BREATH BOT</h2><br><h3><span> використовує показники датчиків забруднення повітря PM2.5</span></h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 wow bounceInUp">
+							<div class="home-text text-center">
+								<h2>BREATH BOT</h2><h3><span>Хмарна система обробки данних</span></h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 wow bounceInUp">
+							<div class="home-text text-center">
+								<h2>BREATH BOT</h2><h3><span>чат-бот Telegram</span></h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--gallery area-->
+<section id="gallery">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-10 col-sm-offset-1">
+				<div class="section-heading text-center text-uppercase  wow shake">
+					<h2> <span>ГАЛЕРЕЯ</span></h2>
+					<p></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="gallery-btn text-center text-uppercase">
+		<a href="#" class="active btn btn-trans" data-filter="*">ALL</a>
+		<a href="#" class="btn btn-trans" data-filter=".prom">ПРОМИСЛОВІСТЬ</a>
+		<a href="#" class="btn btn-trans" data-filter=".trans">ТРАНСПОРТ</a>
+		<a href="#" class="btn btn-trans" data-filter=".control">КОНТРОЛЬ ЯКОСТІ</a>
+		<a href="#" class="btn btn-trans" data-filter=".causes">ПРИЧИНИ</a>
+		<a href="#" class="btn btn-trans" data-filter=".citi">МЕГАПОЛІСИ</a>
+	</div>
+	<div class="container-fluid">
+		<div class="row no-gutter">
+			<div class="gellery-item text-center">
+				<div class="single-gl prom causes citi col-md-2 col-sm-3">
+					<img src="img/gl1.jpg" alt="">
+
+					<div class="gl-overlay">
+						<div class="caption">
+							<a href="img/gl1.jpg" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
+							<a href="#"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="single-gl prom causes col-md-2 col-sm-3">
+					<img src="img/gl2.jpg" alt="">
+
+					<div class="gl-overlay">
+						<div class="caption">
+							<a href="img/gl2.jpg" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
+							<a href="#"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="single-gl trans causes col-md-2 col-sm-3">
+					<img src="img/gl3.jpg" alt="">
+
+					<div class="gl-overlay">
+						<div class="caption">
+							<a href="img/gl3.jpg" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
+							<a href="#"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="single-gl prom causes col-md-2  col-sm-3">
+					<img src="img/gl4.jpg" alt="">
+
+					<div class="gl-overlay">
+						<div class="caption">
+							<a href="img/gl5.jpg" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
+							<a href="#"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="single-gl causes col-md-2 col-sm-3">
+					<img src="img/gl5.jpg" alt="">
+
+					<div class="gl-overlay">
+						<div class="caption">
+							<a href="img/gl5.jpg" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
+							<a href="#"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="single-gl control  col-md-2 col-sm-3">
+					<img src="img/gl6.jpg" alt="">
+
+					<div class="gl-overlay">
+						<div class="caption">
+							<a href="img/gl6.jpg" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
+							<a href="#"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="single-gl control  col-md-2 col-sm-3">
+					<img src="img/gl7.jpg" alt="">
+
+					<div class="gl-overlay">
+						<div class="caption">
+							<a href="img/gl7.jpg" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
+							<a href="#"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="single-gl control  col-md-2 col-sm-3">
+					<img src="img/gl8.jpg" alt="">
+
+					<div class="gl-overlay">
+						<div class="caption">
+							<a href="img/gl8.jpg" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
+							<a href="#"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="single-gl citi col-md-2 col-sm-3">
+					<img src="img/gl9.jpg" alt="">
+
+					<div class="gl-overlay">
+						<div class="caption">
+							<a href="img/gl9.jpg" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
+							<a href="#"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="single-gl trans causes col-md-2 col-sm-3">
+					<img src="img/gl10.jpg" alt="">
+
+					<div class="gl-overlay">
+						<div class="caption">
+							<a href="img/gl10.jpg" data-gallery="prettyPhoto"><i class="fa fa-clock-o"></i></a>
+							<a href="#"><i class="fa fa-expand"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--contact heading-->
+<section id="mapair">
+	<div class="section-heading mapair-heading text-center text-uppercase">
+		<h2>Мапа <span>Моніторингу забруднення повітря</span></h2>
+
+	</div>
+
+	<div id="map">
+
+	</div>
+	<!--<div id="map-overlay" class="text-left">
+		<div class="container">
+			<h2></h2>
+		</div>
+	</div>
+-->
+<!--team section-->
+<section id="team">
+	<div class="container">
+		<div class="section-heading text-center text-uppercase wow  wow bounceInRight">
+			<h2><span>Breath Team</span></h2>
+		</div>
+		<div class="row  wow bounceInLeft">
+			<div class="col-sm-6 col-md-3">
+				<div class="single-team">
+					<img src="img/team1.jpg" alt="">
+
+					<h3>CAPTAIN</h3>
+
+					<p></p>
+
+					<div class="member-social-icon text-center">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-linkedin"></i></a>
+						<a href="#"><i class="fa fa-google-plus"></i></a>
+					</div>
+
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<div class="single-team">
+					<img src="img/team2.jpg" alt="">
+
+					<h3>WEB CODER</h3>
+
+					<p></p>
+
+					<div class="member-social-icon text-center">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-linkedin"></i></a>
+						<a href="#"><i class="fa fa-google-plus"></i></a>
+					</div>
+
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<div class="single-team">
+					<img src="img/team3.jpg" alt="">
+
+					<h3>WEB DEVELOPER</h3>
+
+					<p></p>
+
+					<div class="member-social-icon text-center">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-linkedin"></i></a>
+						<a href="#"><i class="fa fa-google-plus"></i></a>
+					</div>
+
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<div class="single-team">
+					<img src="img/team4.jpg" alt="">
+
+					<h3> Software Tester</h3>
+
+					<p></p>
+
+					<div class="member-social-icon text-center">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-linkedin"></i></a>
+						<a href="#"><i class="fa fa-google-plus"></i></a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+</section>
+<!-- footer-area-->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2 text-center">
+				<a href=""><img src="img/logo.png" alt="logo"></a>
+			</div>
+			<div class="col-sm-8">
+				<div class="footer-p text-center">
+					<p>© Copyright 2020, IT Nation Hacks 2020</p>
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="footer-social text-center">
+					<a href=""><i class="fa fa-facebook"></i></a>
+					<a href=""><i class="fa fa-twitter"></i></a>
+					<a href=""><i class="fa fa-instagram"></i></a>
+					<a href=""><i class="fa fa-google-plus"></i></a>
+					<a href=""><i class="fa fa-rss"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/isotope.2.2.2min.js"></script>
+<script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
