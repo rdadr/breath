@@ -59,7 +59,6 @@ a:hover {
 .btn-trans:focus {
 	outline: none;
 	color: #fff;
-
 }
 
 /******************** NAVBAR CSS *************/
@@ -76,7 +75,7 @@ header .navbar {
 }
 
 #myNavbar ul li {
-	padding: 40px 15px 30px;
+	padding: 20px 15px 15px;
 	text-transform: uppercase;
 }
 
@@ -111,7 +110,7 @@ header .navbar {
 }
 
 header .navbar-brand {
-	padding: 28px 15px;
+	padding: 14px 15px;
 }
 
 header .navbar {
